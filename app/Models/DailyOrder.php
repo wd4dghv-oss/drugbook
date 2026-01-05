@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class DailyOrder extends Model
+{
+    use HasFactory;
+
+    protected $fillable = ['date', 'bht_no', 'drug_name', 'quantity'];
+}

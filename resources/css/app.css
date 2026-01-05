@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text-danger {
+    color: red;
+}
+
+.text-success {
+    color: green;
+}
+
+.badge-danger {
+    background-color: red;
+    color: white;
+}
+
+.badge-success {
+    background-color: green;
+    color: white;
+}
